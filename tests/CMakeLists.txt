@@ -3,6 +3,4 @@ project(VulkanTutorialExamples)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_subdirectory(tests)
-add_subdirectory(src)
-add_subdirectory(Libraries)
+add_executable(Tests tests.cpp)
